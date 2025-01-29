@@ -1,0 +1,108 @@
+{
+    "files_metadata": [
+        {
+            "file_name": "agg_table_allyears_20241118_Nielsen.xlsx",
+            "file_path": "/Users/siriluk/Documents/Motley/Fidelity/data/agg_table_allyears_20241118_Nielsen.xlsx",
+            "num_rows": 1410,
+            "num_columns": 15,
+            "columns": [
+                "recorded_time",
+                "agg_level",
+                "product_type",
+                "country",
+                "year",
+                "quarter",
+                "brand",
+                "brand_tier",
+                "parent_company",
+                "product_category",
+                "total_market_size_rev",
+                "market_share_rev_pct",
+                "aur_yearly",
+                "market_share_unit_sold",
+                "market_share_unit_pct"
+            ],
+            "last_recorded_time": "2024-11-19T00:00:00",
+            "data_age": "69 days 08:57:23.017638",
+            "first_year": 2022,
+            "last_year": 2024,
+            "num_years_data": 3,
+            "credibility_score": 80
+        },
+        {
+            "file_name": "agg_table_allyears_20241119_Circana.xlsx",
+            "file_path": "/Users/siriluk/Documents/Motley/Fidelity/data/agg_table_allyears_20241119_Circana.xlsx",
+            "num_rows": 1410,
+            "num_columns": 15,
+            "columns": [
+                "recorded_time",
+                "agg_level",
+                "product_type",
+                "country",
+                "year",
+                "quarter",
+                "brand",
+                "brand_tier",
+                "parent_company",
+                "product_category",
+                "total_market_size_rev",
+                "market_share_rev_pct",
+                "aur_yearly",
+                "market_share_unit_sold",
+                "market_share_unit_pct"
+            ],
+            "last_recorded_time": "2024-11-19T00:00:00",
+            "data_age": "69 days 08:57:23.158928",
+            "first_year": 2022,
+            "last_year": 2024,
+            "num_years_data": 3,
+            "credibility_score": 90
+        },
+        {
+            "file_name": "avg_unit_price.csv",
+            "file_path": "/Users/siriluk/Documents/Motley/Fidelity/data/avg_unit_price.csv",
+            "num_rows": 168,
+            "num_columns": 6,
+            "columns": [
+                "year",
+                "brand",
+                "aur_circana",
+                "aur_nielsen",
+                "weighted_aur",
+                "source_file"
+            ],
+            "last_recorded_time": null,
+            "data_age": null,
+            "first_year": 2022,
+            "last_year": 2024,
+            "num_years_data": 3,
+            "credibility_score": 70
+        },
+        {
+            "file_name": "agg_table_allyears_20241122_survey.xlsx",
+            "file_path": "/Users/siriluk/Documents/Motley/Fidelity/data/agg_table_allyears_20241122_survey.xlsx",
+            "num_rows": 1470,
+            "num_columns": 12,
+            "columns": [
+                "recorded_time",
+                "agg_level",
+                "product_type",
+                "country",
+                "year",
+                "quarter",
+                "brand",
+                "brand_tier",
+                "parent_company",
+                "product_category",
+                "total_market_size_count",
+                "market_share_pct"
+            ],
+            "last_recorded_time": "2024-11-22T00:00:00",
+            "data_age": "66 days 08:57:23.326337",
+            "first_year": 2022,
+            "last_year": 2024,
+            "num_years_data": 3,
+            "credibility_score": 60
+        }
+    ]
+}
