@@ -28,10 +28,10 @@ metadata_folder_path = METADATA_PATH  # Path to save metadata files
 
 # Example credibility scores for each file in DATA_PATH
 credibility_scores = {
-        'agg_table_allyears_20241118_Nielsen_mascara.xlsx': 80,
-        'agg_table_allyears_20241119_Circana_mascara.xlsx': 90,
-        'agg_table_allyears_20241122_survey_mascara.xlsx': 60,
-        'avg_unit_price_mascara.csv': 70,
+        'agg_table_allyears_20241118_Nielsen.xlsx': 80,
+        'agg_table_allyears_20241119_Circana.xlsx': 90,
+        'agg_table_allyears_20241122_survey.xlsx': 60,
+        'avg_unit_price.csv': 70,
     }
 
 #if metadata.json not exist in the folder, generate metadata for the folder using save
@@ -85,8 +85,8 @@ if fidelity_score:
 
     # Apply the filtering to the DataFrame
     if not include_avg_unit_price:
-        # Filter out 'avg_unit_price...' (case-insensitive)
-        df = df[~df['file_path'].str.contains('avg_unit_price_mascara.csv', case=False) & ~df['file_path'].str.contains('avg_unit_price_shoes.csv', case=False)]
+        # Filter out 'avg_unit_price.csv' (case-insensitive)
+        df = df[~df['file_path'].str.contains('avg_unit_price.csv', case=False)]
 
     # Print the filtered file names
     print("Files used:", df['file_path'].tolist())
@@ -95,12 +95,12 @@ if fidelity_score:
     metrics = calculate_metrics(df)
     print("Metrics:", metrics)
 
-    
-    scores,fidelity_scores = calculate_fidelity_score(metrics)
+    scores, fidelity_scores = calculate_fidelity_score(metrics)
     print("Fidelity Scores:", fidelity_scores)
     fidelity_score_def = fidelity_score_definition(fidelity_scores)
-   
     print("Fidelity Score Definition:", fidelity_score_def)
-    print("Audit:") 
+        
     # Print each score and definition of each criteria
     print_fidelity_score(scores)
+
+
