@@ -1,8 +1,85 @@
 {
     "files_metadata": [
         {
-            "file_name": "agg_table_allyears_20241118_Nielsen.xlsx",
-            "file_path": "/Users/siriluk/Documents/Motley/Fidelity/data/agg_table_allyears_20241118_Nielsen.xlsx",
+            "file_name": "agg_table_shoes_allyears_survey_20250116.csv",
+            "file_path": "/Users/siriluk/Documents/Motley/Fidelity/data/agg_table_shoes_allyears_survey_20250116.csv",
+            "num_rows": 2499,
+            "num_columns": 10,
+            "columns": [
+                "recorded_time",
+                "agg_level",
+                "product_type",
+                "country",
+                "year",
+                "quarter",
+                "month",
+                "brand",
+                "total_market_size_count",
+                "market_share_count_pct"
+            ],
+            "last_recorded_time": "2025-01-16T00:00:00",
+            "data_age": "22 days 16:47:57.219347",
+            "first_year": 2022,
+            "last_year": 2024,
+            "num_years_data": 3,
+            "credibility_score": "unknown"
+        },
+        {
+            "file_name": "agg_table_shoes_allyears_20250114_circana.csv",
+            "file_path": "/Users/siriluk/Documents/Motley/Fidelity/data/agg_table_shoes_allyears_20250114_circana.csv",
+            "num_rows": 2499,
+            "num_columns": 13,
+            "columns": [
+                "recorded_time",
+                "agg_level",
+                "product_type",
+                "country",
+                "year",
+                "quarter",
+                "month",
+                "brand",
+                "total_market_size_rev",
+                "market_share_rev_pct",
+                "average_unit_price",
+                "market_share_unit_sold",
+                "market_share_unit_pct"
+            ],
+            "last_recorded_time": "2025-01-15T00:00:00",
+            "data_age": "23 days 16:47:57.225809",
+            "first_year": 2022,
+            "last_year": 2024,
+            "num_years_data": 3,
+            "credibility_score": "unknown"
+        },
+        {
+            "file_name": "agg_table_allyears_20241122_survey_mascara.xlsx",
+            "file_path": "/Users/siriluk/Documents/Motley/Fidelity/data/agg_table_allyears_20241122_survey_mascara.xlsx",
+            "num_rows": 1470,
+            "num_columns": 12,
+            "columns": [
+                "recorded_time",
+                "agg_level",
+                "product_type",
+                "country",
+                "year",
+                "quarter",
+                "brand",
+                "brand_tier",
+                "parent_company",
+                "product_category",
+                "total_market_size_count",
+                "market_share_pct"
+            ],
+            "last_recorded_time": "2024-11-22T00:00:00",
+            "data_age": "77 days 16:47:57.359542",
+            "first_year": 2022,
+            "last_year": 2024,
+            "num_years_data": 3,
+            "credibility_score": 60
+        },
+        {
+            "file_name": "agg_table_allyears_20241118_Nielsen_mascara.xlsx",
+            "file_path": "/Users/siriluk/Documents/Motley/Fidelity/data/agg_table_allyears_20241118_Nielsen_mascara.xlsx",
             "num_rows": 1410,
             "num_columns": 15,
             "columns": [
@@ -23,17 +100,17 @@
                 "market_share_unit_pct"
             ],
             "last_recorded_time": "2024-11-19T00:00:00",
-            "data_age": "76 days 20:04:53.056614",
+            "data_age": "80 days 16:47:57.489622",
             "first_year": 2022,
             "last_year": 2024,
             "num_years_data": 3,
             "credibility_score": 80
         },
         {
-            "file_name": "agg_table_allyears_20241119_Circana.xlsx",
-            "file_path": "/Users/siriluk/Documents/Motley/Fidelity/data/agg_table_allyears_20241119_Circana.xlsx",
-            "num_rows": 1410,
-            "num_columns": 15,
+            "file_name": "agg_table_shoes_allyears_20250114_nielsen.csv",
+            "file_path": "/Users/siriluk/Documents/Motley/Fidelity/data/agg_table_shoes_allyears_20250114_nielsen.csv",
+            "num_rows": 2499,
+            "num_columns": 16,
             "columns": [
                 "recorded_time",
                 "agg_level",
@@ -41,26 +118,48 @@
                 "country",
                 "year",
                 "quarter",
+                "month",
                 "brand",
                 "brand_tier",
                 "parent_company",
                 "product_category",
                 "total_market_size_rev",
                 "market_share_rev_pct",
-                "aur_yearly",
+                "average_unit_price",
                 "market_share_unit_sold",
                 "market_share_unit_pct"
             ],
-            "last_recorded_time": "2024-11-19T00:00:00",
-            "data_age": "76 days 20:04:53.186106",
+            "last_recorded_time": "2025-01-15T00:00:00",
+            "data_age": "23 days 16:47:57.497156",
             "first_year": 2022,
             "last_year": 2024,
             "num_years_data": 3,
-            "credibility_score": 90
+            "credibility_score": "unknown"
         },
         {
-            "file_name": "avg_unit_price.csv",
-            "file_path": "/Users/siriluk/Documents/Motley/Fidelity/data/avg_unit_price.csv",
+            "file_name": "avg_unit_price_shoes.csv",
+            "file_path": "/Users/siriluk/Documents/Motley/Fidelity/data/avg_unit_price_shoes.csv",
+            "num_rows": 1728,
+            "num_columns": 7,
+            "columns": [
+                "year",
+                "month",
+                "quarter",
+                "brand",
+                "aur_circana",
+                "aur_nielsen",
+                "weighted_aur"
+            ],
+            "last_recorded_time": null,
+            "data_age": null,
+            "first_year": 2022,
+            "last_year": 2024,
+            "num_years_data": 3,
+            "credibility_score": "unknown"
+        },
+        {
+            "file_name": "avg_unit_price_mascara.csv",
+            "file_path": "/Users/siriluk/Documents/Motley/Fidelity/data/avg_unit_price_mascara.csv",
             "num_rows": 168,
             "num_columns": 6,
             "columns": [
@@ -79,10 +178,10 @@
             "credibility_score": 70
         },
         {
-            "file_name": "agg_table_allyears_20241122_survey.xlsx",
-            "file_path": "/Users/siriluk/Documents/Motley/Fidelity/data/agg_table_allyears_20241122_survey.xlsx",
-            "num_rows": 1470,
-            "num_columns": 12,
+            "file_name": "agg_table_allyears_20241119_Circana_mascara.xlsx",
+            "file_path": "/Users/siriluk/Documents/Motley/Fidelity/data/agg_table_allyears_20241119_Circana_mascara.xlsx",
+            "num_rows": 1410,
+            "num_columns": 15,
             "columns": [
                 "recorded_time",
                 "agg_level",
@@ -94,15 +193,18 @@
                 "brand_tier",
                 "parent_company",
                 "product_category",
-                "total_market_size_count",
-                "market_share_pct"
+                "total_market_size_rev",
+                "market_share_rev_pct",
+                "aur_yearly",
+                "market_share_unit_sold",
+                "market_share_unit_pct"
             ],
-            "last_recorded_time": "2024-11-22T00:00:00",
-            "data_age": "73 days 20:04:53.332571",
+            "last_recorded_time": "2024-11-19T00:00:00",
+            "data_age": "80 days 16:47:57.663086",
             "first_year": 2022,
             "last_year": 2024,
             "num_years_data": 3,
-            "credibility_score": 60
+            "credibility_score": 90
         }
     ]
 }
