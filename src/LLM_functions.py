@@ -106,10 +106,10 @@ def LLM_lookup(query, metadata_file):
     return parsed_list
 
 #Enter query to classify
-# if __name__ == "__main__":
-#     query = input("Enter your query: ")
-#     classification = classify_query(query)
-#     print("Classification:", classification)
-#     file_list = LLM_lookup(query, 'metadata.json')
-#     print("File List:", file_list)
-#     print("file_list_type",type(file_list))
+if __name__ == "__main__":
+    query = input("Enter your query: ")
+    classification = classify_query(query)
+    print("Classification:", classification)
+    file_list = LLM_lookup(query, 'metadata.json')
+    print("File List:", file_list)
+    print("file_list_type",type(file_list))
