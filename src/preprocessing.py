@@ -11,12 +11,9 @@ import pandas as pd
 import datetime
 import numpy as np
 
-def create_dataframe(file_path):
-    # Load the JSON data and create dataframe
-    data = load_metadata(file_path)
-
+def create_dataframe(metadata):
     # Extract the files_metadata list
-    files_metadata = data['files_metadata']
+    files_metadata = metadata['files_metadata']
 
     # Create a DataFrame from the list
     df = pd.DataFrame(files_metadata)
@@ -52,8 +49,23 @@ def calculate_metrics(df):
     min_credibility_score = df['credibility_score'].min()
     avg_credibility_score = df['credibility_score'].mean()
     
+    # Get the columns that are the same across all data sources
+    common_columns = set.intersection(*df['columns'].apply(set))
+    # Get all columns
+    all_columns = set.union(*df['columns'].apply(set))
+    
+    # Get the uncommon columns
+    uncommon_columns = all_columns - common_columns
+    
+    # Count the number of data sources with columns containing 'market_share'
+    market_share_count = df['columns'].apply(lambda cols: any('market_share' in col for col in cols)).sum()
+    
     # Prepare the metrics dictionary
     metrics = {
+        'data_source_names': df['file_name'].tolist(),
+        #get the same columns name from the metadata
+        'common_columns': list(common_columns),
+        'uncommon_columns': list(uncommon_columns),
         'number_of_sources': number_of_datasources,
         'avg_data_age_months': avg_data_age,
         'number_of_years': number_of_years_data,
@@ -61,7 +73,8 @@ def calculate_metrics(df):
         'end_year': end_year,
         'max_credibility_score': max_credibility_score,
         'min_credibility_score': min_credibility_score,
-        'avg_credibility_score': avg_credibility_score
+        'avg_credibility_score': avg_credibility_score,
+        'market_share_count': market_share_count
     }
     
     return metrics

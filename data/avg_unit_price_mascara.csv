@@ -1,0 +1,169 @@
+year,brand,aur_circana,aur_nielsen,weighted_aur,source_file
+2023,Almay,6.566,6.375,6.48005,weighted_aur_2023.xlsx
+2023,Anastasia,20.127,20.75,20.40735,weighted_aur_2023.xlsx
+2023,Bareminerals,18.669,18.125,18.4242,weighted_aur_2023.xlsx
+2023,Benefit Cosmetics,22.431,23.125,22.7433,weighted_aur_2023.xlsx
+2023,Black Radiance,5.021,4.875,4.9553,weighted_aur_2023.xlsx
+2023,Bobbi Brown,29.221,30.125,29.6278,weighted_aur_2023.xlsx
+2023,Burt's Bees,14.678,14.25,14.4854,weighted_aur_2023.xlsx
+2023,Chanel,34.071,35.125,34.5453,weighted_aur_2023.xlsx
+2023,Charlotte Tilbury,26.008,25.25,25.6669,weighted_aur_2023.xlsx
+2023,Ciate,19.521,20.125,19.7928,weighted_aur_2023.xlsx
+2023,Clinique,19.699,19.125,19.4407,weighted_aur_2023.xlsx
+2023,Covergirl,7.881,8.125,7.9908,weighted_aur_2023.xlsx
+2023,Dior,29.741,28.875,29.3513,weighted_aur_2023.xlsx
+2023,E.L.F.,4.365,4.5,4.425750000000001,weighted_aur_2023.xlsx
+2023,Essence Cosmetics,3.991,3.875,3.938800000000001,weighted_aur_2023.xlsx
+2023,Estée Lauder,28.009,28.875,28.3987,weighted_aur_2023.xlsx
+2023,Fenty Beauty,19.57,19,19.3135,weighted_aur_2023.xlsx
+2023,Giorgio Armani,30.919,31.875,31.3492,weighted_aur_2023.xlsx
+2023,Glossier,15.321,14.875,15.1203,weighted_aur_2023.xlsx
+2023,Haus Labs By Lady Gaga,19.279,19.875,19.5472,weighted_aur_2023.xlsx
+2023,Hourglass,28.84,28,28.462,weighted_aur_2023.xlsx
+2023,Huda Beauty,26.069,26.875,26.4317,weighted_aur_2023.xlsx
+2023,Il Makiage,24.591,23.875,24.2688,weighted_aur_2023.xlsx
+2023,Ilia,26.069,26.875,26.4317,weighted_aur_2023.xlsx
+2023,It Cosmetics,24.72,24,24.396,weighted_aur_2023.xlsx
+2023,Kat Von D,23.159,23.875,23.4812,weighted_aur_2023.xlsx
+2023,Kosas,25.621,24.875,25.2853,weighted_aur_2023.xlsx
+2023,Kylie Cosmetics,17.581,18.125,17.8258,weighted_aur_2023.xlsx
+2023,L'Oreal,10.815,10.5,10.67325,weighted_aur_2023.xlsx
+2023,Lancome,24.25,25,24.5875,weighted_aur_2023.xlsx
+2023,Laura Geller,20.6,20,20.33,weighted_aur_2023.xlsx
+2023,Laura Mercier,24.614,25.375,24.95645,weighted_aur_2023.xlsx
+2023,Mac,26.136,25.375,25.79355,weighted_aur_2023.xlsx
+2023,Make Up For Ever,23.159,23.875,23.4812,weighted_aur_2023.xlsx
+2023,Maybelline,8.626,8.375,8.51305,weighted_aur_2023.xlsx
+2023,Milani,10.185,10.5,10.32675,weighted_aur_2023.xlsx
+2023,Milk Makeup,24.591,23.875,24.2688,weighted_aur_2023.xlsx
+2023,Nars,23.037,23.75,23.35785,weighted_aur_2023.xlsx
+2023,Neutrogena,7.854,7.625,7.75095,weighted_aur_2023.xlsx
+2023,Nudestix,23.159,23.875,23.4812,weighted_aur_2023.xlsx
+2023,Nyx,9.013,8.75,8.89465,weighted_aur_2023.xlsx
+2023,Pat Mcgrath Labs,28.009,28.875,28.3987,weighted_aur_2023.xlsx
+2023,Physicians Formula,10.686,10.375,10.54605,weighted_aur_2023.xlsx
+2023,Pixi,13.58,14,13.769,weighted_aur_2023.xlsx
+2023,Rare Beauty,19.441,18.875,19.1863,weighted_aur_2023.xlsx
+2023,Revlon,5.699,5.875,5.7782,weighted_aur_2023.xlsx
+2023,Revolution,7.982,7.75,7.877600000000001,weighted_aur_2023.xlsx
+2023,Rimmel,4.365,4.5,4.425750000000001,weighted_aur_2023.xlsx
+2023,Saie,23.561,22.875,23.2523,weighted_aur_2023.xlsx
+2023,Smashbox,22.31,23,22.6205,weighted_aur_2023.xlsx
+2023,Tarte,23.561,22.875,23.2523,weighted_aur_2023.xlsx
+2023,Too Faced Cosmetics,19.279,19.875,19.5472,weighted_aur_2023.xlsx
+2023,Tower 28,19.441,18.875,19.1863,weighted_aur_2023.xlsx
+2023,Urban Decay,23.159,23.875,23.4812,weighted_aur_2023.xlsx
+2023,Wet N Wild,3.863,3.75,3.81215,weighted_aur_2023.xlsx
+2023,YSL,35.769,36.875,36.2667,weighted_aur_2023.xlsx
+2022,Almay,6.375,6.25,6.31875,weighted_aur_2022.xlsx
+2022,Anastasia,21.07,21.5,21.2635,weighted_aur_2022.xlsx
+2022,Bareminerals,18.87,18.5,18.7035,weighted_aur_2022.xlsx
+2022,Benefit Cosmetics,23.03,23.5,23.2415,weighted_aur_2022.xlsx
+2022,Black Radiance,5.1,5,5.055,weighted_aur_2022.xlsx
+2022,Bobbi Brown,30.012,30.625,30.28785,weighted_aur_2022.xlsx
+2022,Burt's Bees,13.898,13.625,13.77515,weighted_aur_2022.xlsx
+2022,Chanel,34.79,35.5,35.1095,weighted_aur_2022.xlsx
+2022,Charlotte Tilbury,26.137,25.625,25.9066,weighted_aur_2022.xlsx
+2022,Ciate,20.09,20.5,20.2745,weighted_aur_2022.xlsx
+2022,Clinique,19.89,19.5,19.7145,weighted_aur_2022.xlsx
+2022,Covergirl,8.207,8.375,8.2826,weighted_aur_2022.xlsx
+2022,Dior,30.09,29.5,29.8245,weighted_aur_2022.xlsx
+2022,E.L.F.,4.655,4.75,4.697750000000001,weighted_aur_2022.xlsx
+2022,Essence Cosmetics,4.08,4,4.044,weighted_aur_2022.xlsx
+2022,Estée Lauder,28.91,29.5,29.1755,weighted_aur_2022.xlsx
+2022,Fenty Beauty,20.018,19.625,19.84115,weighted_aur_2022.xlsx
+2022,Giorgio Armani,31.85,32.5,32.1425,weighted_aur_2022.xlsx
+2022,Glossier,15.81,15.5,15.6705,weighted_aur_2022.xlsx
+2022,Haus Labs By Lady Gaga,20.09,20.5,20.2745,weighted_aur_2022.xlsx
+2022,Hourglass,29.198,28.625,28.94015,weighted_aur_2022.xlsx
+2022,Huda Beauty,26.95,27.5,27.1975,weighted_aur_2022.xlsx
+2022,Il Makiage,24.99,24.5,24.7695,weighted_aur_2022.xlsx
+2022,Ilia,26.95,27.5,27.1975,weighted_aur_2022.xlsx
+2022,It Cosmetics,25.117,24.625,24.8956,weighted_aur_2022.xlsx
+2022,Kat Von D,24.01,24.5,24.2305,weighted_aur_2022.xlsx
+2022,Kosas,26.01,25.5,25.7805,weighted_aur_2022.xlsx
+2022,Kylie Cosmetics,18.13,18.5,18.2965,weighted_aur_2022.xlsx
+2022,L'Oreal,10.965,10.75,10.86825,weighted_aur_2022.xlsx
+2022,Lancome,25.113,25.625,25.3434,weighted_aur_2022.xlsx
+2022,Laura Geller,21.038,20.625,20.85215,weighted_aur_2022.xlsx
+2022,Laura Mercier,25.48,26,25.714,weighted_aur_2022.xlsx
+2022,Mac,26.52,26,26.286,weighted_aur_2022.xlsx
+2022,Make Up For Ever,24.01,24.5,24.2305,weighted_aur_2022.xlsx
+2022,Maybelline,8.415,8.25,8.34075,weighted_aur_2022.xlsx
+2022,Milani,10.902,11.125,11.00235,weighted_aur_2022.xlsx
+2022,Milk Makeup,24.99,24.5,24.7695,weighted_aur_2022.xlsx
+2022,Nars,23.887,24.375,24.1066,weighted_aur_2022.xlsx
+2022,Neutrogena,8.16,8,8.088000000000001,weighted_aur_2022.xlsx
+2022,Nudestix,24.01,24.5,24.2305,weighted_aur_2022.xlsx
+2022,Nyx,9.435,9.25,9.351750000000001,weighted_aur_2022.xlsx
+2022,Pat Mcgrath Labs,28.91,29.5,29.1755,weighted_aur_2022.xlsx
+2022,Physicians Formula,10.965,10.75,10.86825,weighted_aur_2022.xlsx
+2022,Pixi,14.332,14.625,14.46385,weighted_aur_2022.xlsx
+2022,Rare Beauty,19.89,19.5,19.7145,weighted_aur_2022.xlsx
+2022,Revlon,6.125,6.25,6.18125,weighted_aur_2022.xlsx
+2022,Revolution,8.415,8.25,8.34075,weighted_aur_2022.xlsx
+2022,Rimmel,4.655,4.75,4.697750000000001,weighted_aur_2022.xlsx
+2022,Saie,23.97,23.5,23.7585,weighted_aur_2022.xlsx
+2022,Smashbox,23.152,23.625,23.36485,weighted_aur_2022.xlsx
+2022,Tarte,23.97,23.5,23.7585,weighted_aur_2022.xlsx
+2022,Too Faced Cosmetics,20.09,20.5,20.2745,weighted_aur_2022.xlsx
+2022,Tower 28,19.89,19.5,19.7145,weighted_aur_2022.xlsx
+2022,Urban Decay,24.01,24.5,24.2305,weighted_aur_2022.xlsx
+2022,Wet N Wild,4.08,4,4.044,weighted_aur_2022.xlsx
+2022,YSL,36.75,37.5,37.08750000000001,weighted_aur_2022.xlsx
+2024,Almay,7.944,7.75,7.8567,weighted_aur_2024.xlsx
+2024,Anastasia,22.912,23.5,23.1766,weighted_aur_2024.xlsx
+2024,Bareminerals,22.037,21.5,21.79535,weighted_aur_2024.xlsx
+2024,Benefit Cosmetics,25.837,26.5,26.13535,weighted_aur_2024.xlsx
+2024,Black Radiance,5.894,5.75,5.8292,weighted_aur_2024.xlsx
+2024,Bobbi Brown,32.784,33.625,33.16245,weighted_aur_2024.xlsx
+2024,Burt's Bees,13.966,13.625,13.81255,weighted_aur_2024.xlsx
+2024,Chanel,37.538,38.5,37.9709,weighted_aur_2024.xlsx
+2024,Charlotte Tilbury,30.237,29.5,29.90535,weighted_aur_2024.xlsx
+2024,Ciate,22.912,23.5,23.1766,weighted_aur_2024.xlsx
+2024,Clinique,23.062,22.5,22.8091,weighted_aur_2024.xlsx
+2024,Covergirl,8.653,8.875,8.7529,weighted_aur_2024.xlsx
+2024,Dior,33.312,32.5,32.9466,weighted_aur_2024.xlsx
+2024,E.L.F.,6.094,6.25,6.164200000000001,weighted_aur_2024.xlsx
+2024,Essence Cosmetics,5.074,4.95,5.0182,weighted_aur_2024.xlsx
+2024,Estée Lauder,31.688,32.5,32.0534,weighted_aur_2024.xlsx
+2024,Fenty Beauty,23.191,22.625,22.9363,weighted_aur_2024.xlsx
+2024,Giorgio Armani,34.612,35.5,35.0116,weighted_aur_2024.xlsx
+2024,Glossier,18.962,18.5,18.7541,weighted_aur_2024.xlsx
+2024,Haus Labs By Lady Gaga,22.912,23.5,23.1766,weighted_aur_2024.xlsx
+2024,Hourglass,32.416,31.625,32.06005,weighted_aur_2024.xlsx
+2024,Huda Beauty,29.738,30.5,30.0809,weighted_aur_2024.xlsx
+2024,Il Makiage,28.187,27.5,27.87785,weighted_aur_2024.xlsx
+2024,Ilia,29.738,30.5,30.0809,weighted_aur_2024.xlsx
+2024,It Cosmetics,28.444,27.75,28.1317,weighted_aur_2024.xlsx
+2024,Kat Von D,26.812,27.5,27.1216,weighted_aur_2024.xlsx
+2024,Kosas,29.212,28.5,28.8916,weighted_aur_2024.xlsx
+2024,Kylie Cosmetics,19.988,20.5,20.2184,weighted_aur_2024.xlsx
+2024,L'Oreal,12.941,12.625,12.7988,weighted_aur_2024.xlsx
+2024,Lancome,27.909,28.625,28.2312,weighted_aur_2024.xlsx
+2024,Laura Geller,24.216,23.625,23.95005,weighted_aur_2024.xlsx
+2024,Laura Mercier,26.812,27.5,27.1216,weighted_aur_2024.xlsx
+2024,Mac,28.187,27.5,27.87785,weighted_aur_2024.xlsx
+2024,Make Up For Ever,26.812,27.5,27.1216,weighted_aur_2024.xlsx
+2024,Maybelline,10.762,10.5,10.6441,weighted_aur_2024.xlsx
+2024,Milani,12.309,12.625,12.4512,weighted_aur_2024.xlsx
+2024,Milk Makeup,28.187,27.5,27.87785,weighted_aur_2024.xlsx
+2024,Nars,25.959,26.625,26.2587,weighted_aur_2024.xlsx
+2024,Neutrogena,9.737,9.5,9.63035,weighted_aur_2024.xlsx
+2024,Nudestix,26.812,27.5,27.1216,weighted_aur_2024.xlsx
+2024,Nyx,11.275,11,11.15125,weighted_aur_2024.xlsx
+2024,Pat Mcgrath Labs,31.688,32.5,32.0534,weighted_aur_2024.xlsx
+2024,Physicians Formula,12.172,11.875,12.03835,weighted_aur_2024.xlsx
+2024,Pixi,17.306,17.75,17.5058,weighted_aur_2024.xlsx
+2024,Rare Beauty,23.062,22.5,22.8091,weighted_aur_2024.xlsx
+2024,Revlon,8.287,8.5,8.382850000000001,weighted_aur_2024.xlsx
+2024,Revolution,9.866,9.625,9.75755,weighted_aur_2024.xlsx
+2024,Rimmel,5.801,5.95,5.86805,weighted_aur_2024.xlsx
+2024,Saie,27.162,26.5,26.8641,weighted_aur_2024.xlsx
+2024,Smashbox,25.837,26.5,26.13535,weighted_aur_2024.xlsx
+2024,Tarte,27.162,26.5,26.8641,weighted_aur_2024.xlsx
+2024,Too Faced Cosmetics,23.887,24.5,24.16285,weighted_aur_2024.xlsx
+2024,Tower 28,23.062,22.5,22.8091,weighted_aur_2024.xlsx
+2024,Urban Decay,26.812,27.5,27.1216,weighted_aur_2024.xlsx
+2024,Wet N Wild,5.381,5.25,5.322050000000001,weighted_aur_2024.xlsx
+2024,YSL,39.487,40.5,39.94285000000001,weighted_aur_2024.xlsx
