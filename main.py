@@ -92,8 +92,9 @@ if fidelity_score:
 
     # Apply the filtering to the DataFrame
     if not include_avg_unit_price:
-        # Filter out 'avg_unit_price.csv' (case-insensitive)
-        df = df[~df['file_path'].str.contains('avg_unit_price.csv', case=False)]
+        # Filter out column name with avg_unit_price ....
+        df = df[~df['file_path'].str.contains('avg_unit_price', case=False)] 
+        #df = df[~df['file_path'].str.contains('a.csv', case=False) or df['file_path'].str.contains('avg_unit_price_mascara.csv', case=False)]
 
     # Print the filtered file names
     print("Files used:", df['file_path'].tolist())
