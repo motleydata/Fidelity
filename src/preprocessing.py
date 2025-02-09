@@ -11,12 +11,9 @@ import pandas as pd
 import datetime
 import numpy as np
 
-def create_dataframe(file_path):
-    # Load the JSON data and create dataframe
-    data = load_metadata(file_path)
-
+def create_dataframe(metadata):
     # Extract the files_metadata list
-    files_metadata = data['files_metadata']
+    files_metadata = metadata['files_metadata']
 
     # Create a DataFrame from the list
     df = pd.DataFrame(files_metadata)

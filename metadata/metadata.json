@@ -18,11 +18,11 @@
                 "market_share_count_pct"
             ],
             "last_recorded_time": "2025-01-16T00:00:00",
-            "data_age": "22 days 16:47:57.219347",
+            "data_age": "24 days 10:02:16.252702",
             "first_year": 2022,
             "last_year": 2024,
             "num_years_data": 3,
-            "credibility_score": "unknown"
+            "credibility_score": 65
         },
         {
             "file_name": "agg_table_shoes_allyears_20250114_circana.csv",
@@ -45,11 +45,11 @@
                 "market_share_unit_pct"
             ],
             "last_recorded_time": "2025-01-15T00:00:00",
-            "data_age": "23 days 16:47:57.225809",
+            "data_age": "25 days 10:02:16.258225",
             "first_year": 2022,
             "last_year": 2024,
             "num_years_data": 3,
-            "credibility_score": "unknown"
+            "credibility_score": 85
         },
         {
             "file_name": "agg_table_allyears_20241122_survey_mascara.xlsx",
@@ -71,7 +71,7 @@
                 "market_share_pct"
             ],
             "last_recorded_time": "2024-11-22T00:00:00",
-            "data_age": "77 days 16:47:57.359542",
+            "data_age": "79 days 10:02:16.391963",
             "first_year": 2022,
             "last_year": 2024,
             "num_years_data": 3,
@@ -100,7 +100,7 @@
                 "market_share_unit_pct"
             ],
             "last_recorded_time": "2024-11-19T00:00:00",
-            "data_age": "80 days 16:47:57.489622",
+            "data_age": "82 days 10:02:16.523384",
             "first_year": 2022,
             "last_year": 2024,
             "num_years_data": 3,
@@ -130,11 +130,11 @@
                 "market_share_unit_pct"
             ],
             "last_recorded_time": "2025-01-15T00:00:00",
-            "data_age": "23 days 16:47:57.497156",
+            "data_age": "25 days 10:02:16.530234",
             "first_year": 2022,
             "last_year": 2024,
             "num_years_data": 3,
-            "credibility_score": "unknown"
+            "credibility_score": 75
         },
         {
             "file_name": "avg_unit_price_shoes.csv",
@@ -155,7 +155,7 @@
             "first_year": 2022,
             "last_year": 2024,
             "num_years_data": 3,
-            "credibility_score": "unknown"
+            "credibility_score": 95
         },
         {
             "file_name": "avg_unit_price_mascara.csv",
@@ -200,7 +200,7 @@
                 "market_share_unit_pct"
             ],
             "last_recorded_time": "2024-11-19T00:00:00",
-            "data_age": "80 days 16:47:57.663086",
+            "data_age": "82 days 10:02:16.696606",
             "first_year": 2022,
             "last_year": 2024,
             "num_years_data": 3,

@@ -66,8 +66,6 @@ def LLM_lookup(query, metadata_file):
     with open(metadata_path, 'r') as file:
         metadata = json.load(file)
     
-    # print("Metadata:", metadata)
-    
     #extract file names from metadata
     file_names = [file['file_name'] for file in metadata['files_metadata']]
     #print(file_names)
@@ -84,6 +82,7 @@ def LLM_lookup(query, metadata_file):
     
     Do not add description, just only provide the list of file paths.
     """
+    
     # Call OpenAI GPT-4 API
     client = OpenAI()
     response = client.chat.completions.create(
@@ -112,4 +111,4 @@ if __name__ == "__main__":
     print("Classification:", classification)
     file_list = LLM_lookup(query, 'metadata.json')
     print("File List:", file_list)
-    print("file_list_type",type(file_list))
+    print("file_list_type", type(file_list))

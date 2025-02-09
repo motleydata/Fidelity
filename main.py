@@ -13,10 +13,10 @@ if str(src_path) not in sys.path:
     sys.path.append(str(src_path))
 
 from config.config import DATA_PATH, METADATA_PATH
-from src.LLM_functions import classify_query, LLM_lookup
+from src.llm_functions import classify_query, LLM_lookup
 from src.save_metadata import save_metadata_for_folder
-from src.preprocessing import create_dataframe, calculate_metrics
-from src.Fidelity import calculate_fidelity_score, fidelity_score_definition, print_fidelity_score
+from src.preprocessing import calculate_metrics
+from src.fidelity import calculate_fidelity_score, fidelity_score_definition, print_fidelity_score
 
 
 #1. Generate metadata from the file in DATA_PATH ('data')
@@ -28,15 +28,22 @@ metadata_folder_path = METADATA_PATH  # Path to save metadata files
 
 # Example credibility scores for each file in DATA_PATH
 credibility_scores = {
-        'agg_table_allyears_20241118_Nielsen.xlsx': 80,
-        'agg_table_allyears_20241119_Circana.xlsx': 90,
-        'agg_table_allyears_20241122_survey.xlsx': 60,
-        'avg_unit_price.csv': 70,
+        'agg_table_allyears_20241118_Nielsen_mascara.xlsx': 80,
+        'agg_table_allyears_20241119_Circana_mascara.xlsx': 90,
+        'agg_table_allyears_20241122_survey_mascara.xlsx': 60,
+        'avg_unit_price_mascara.csv': 70,
+        'agg_table_shoes_allyears_20250114_circana.csv': 85,
+        'agg_table_shoes_allyears_20250114_nielsen.csv': 75,
+        'agg_table_shoes_allyears_survey_20250116.csv': 65,
+        'avg_unit_price_shoes.csv': 95   
     }
 
-#if metadata.json not exist in the folder, generate metadata for the folder using save
-if not os.path.exists(metadata_folder_path / 'metadata.json'):
-    save_metadata_for_folder(data_folder_path, metadata_folder_path, credibility_scores)
+#if metadata.json not exist in the folder or the metadata is different than the one we have, generate metadata for the folder using save
+metadata_file_path = metadata_folder_path / 'metadata.json'
+
+if not os.path.exists(metadata_file_path):
+    print("Metadata does not exist, generating metadata...")
+    new_metadata = save_metadata_for_folder(data_folder_path, metadata_folder_path, credibility_scores)
 else:
     print("Metadata already exists in the folder")
 
@@ -62,7 +69,7 @@ if fidelity_score:
     file_path = METADATA_PATH / 'metadata.json'
 
     # Select only metadata that have file_path presented in list generated from LLM to do dataframe
-    file_path_list = LLM_lookup(query, file_path)
+    file_path_list = LLM_lookup(query, str(file_path))
     print("File Path List:", file_path_list)
     
     # Only have metadata of the file_path_list
@@ -96,11 +103,13 @@ if fidelity_score:
     print("Metrics:", metrics)
 
     scores, fidelity_scores = calculate_fidelity_score(metrics)
-    print("Fidelity Scores:", fidelity_scores)
     fidelity_score_def = fidelity_score_definition(fidelity_scores)
-    print("Fidelity Score Definition:", fidelity_score_def)
-        
+    print()
+    print(f"Fidelity Score: {fidelity_scores} out of 5 {fidelity_score_def}")
+    # Add new line
+    print()
     # Print each score and definition of each criteria
+    print("Audit Scores:")
     print_fidelity_score(scores)
 
 
