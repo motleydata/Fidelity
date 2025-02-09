@@ -44,11 +44,11 @@ def calculate_fidelity_score(metrics):
     
     if number_of_sources is None:
         print("Warning: number_of_sources is missing or None")
-    elif number_of_sources == 1:
+    elif number_of_sources == 1.0:
         scores.append(1)
-    elif number_of_sources == 2:
+    elif number_of_sources == 2.0:
         scores.append(3)
-    elif number_of_sources >= 3:
+    elif number_of_sources >= 3.0:
         scores.append(5)
 
     #print("Number of Sources Score:", scores)
@@ -91,15 +91,15 @@ def calculate_fidelity_score(metrics):
     
     def calculate_credibility_score(value):
         if value >= 80:
-            return 5
+            return 5.0
         elif value >= 70:
-            return 4
+            return 4.0
         elif value >= 50:
-            return 3
+            return 3.0
         elif value >= 30:
-            return 2
+            return 2.0
         else:
-            return 1
+            return 1.0
     
     max_score = calculate_credibility_score(metrics['max_credibility_score'])
     min_score = calculate_credibility_score(metrics['min_credibility_score'])
@@ -136,8 +136,9 @@ def fidelity_score_definition(score):
 def print_fidelity_score(scores):
     #for each score, print criteria name, score and definition
     #define function to print each score and definition in the list
-    criteria_name = ["Data Source Names", "Number of Sources", "Average Data Age", "Credibility Score"]
+    criteria_name = ["Completeness of Sources", "Number of Sources", "Average Sources Age", "Credibility of Soures"]
     for i, score in enumerate(scores):
-        print(f"{criteria_name[i]} Score:", score,fidelity_score_definition(score))
+        # I want to print score as integer not floating point
+        print(f"{criteria_name[i]} Score:", int(score), fidelity_score_definition(score))
         # print(f"{criteria_name[i]} Score Definition:", fidelity_score_definition(score))
 
